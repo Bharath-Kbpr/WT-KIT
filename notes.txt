@@ -27,3 +27,31 @@
 </body>
 </html> 
 <!---------------------------------------------------FOOTER----------------------------------------------------------------------->
+
+<!---------------------------------------------------NAV-BAR----------------------------------------------------------------------->
+<nav>
+<h1>BRAND</h1>
+<ul class="navlinks">
+<li>HOME</li>
+<li>PORTFOLIO</li>
+<li>ABOUT</li>
+<li>CONTACT US</li>
+</ul>
+</nav
+#########CSS#######
+nav{
+display:flex;
+justify-content:space-between;
+width:90%;
+min-height:10vh;
+align-items:center;
+margin:auto;
+}
+.navlinks{
+display:flex;
+justify-content:space-between;
+list-style:none;
+}
+.navlinks,h1{
+flex:1;
+<!---------------------------------------------------NAV-BAR----------------------------------------------------------------------->
